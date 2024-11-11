@@ -1,0 +1,109 @@
+body {
+  background-color: hsl(30, 54%, 90%);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 175vh;
+  margin: 0;
+  flex-wrap: wrap;
+}
+h3 {
+  color: hsl(332, 51%, 32%);
+}
+h2 {
+  color: hsl(14, 45%, 36%);
+}
+.mainheading p {
+  color: hsl(30, 10%, 34%);
+}
+.preptime li span {
+  font-weight: 900;
+  color: hsl(24, 5%, 18%);
+  padding-left: 1rem;
+}
+.box {
+  height: 95rem;
+  width: 36.5rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+.box img {
+  width: 35.5rem;
+  border-radius: 1rem;
+}
+.preptime {
+  background-color: hsl(330, 100%, 98%);
+  opacity: 0.9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  border-radius: 1rem;
+  color: hsl(30, 10%, 34%);
+}
+
+.preptime ul li {
+  margin-bottom: 0.75rem;
+  margin-left: 0.75rem;
+  color: ;
+}
+.preptime h3 {
+  margin-left: -0.5rem;
+}
+.ingredients {
+  display: flex;
+  flex-direction: column;
+}
+.ingredients h2 {
+  margin-left: -2.25rem;
+}
+.ingredients ul li {
+  margin-bottom: 0.75rem;
+  margin-left: -1rem;
+  color: hsl(30, 10%, 34%);
+}
+ul li::marker {
+  color: hsl(14, 45%, 36%);
+}
+.instructions {
+  display: flex;
+  flex-direction: column;
+}
+.instructions ol li {
+  margin-bottom: 0.75rem;
+  margin-left: -1rem;
+  color: hsl(30, 10%, 34%);
+}
+
+ol li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+.instructions h2 {
+  margin-left: -2.25rem;
+}
+
+.instructions li span {
+  font-weight: 900;
+  color: hsl(30, 10%, 34%);
+}
+
+.nutrition table {
+  margin-left: 0.75rem;
+  border-spacing: 1.5rem;
+}
+.nutrition table td {
+  padding: 1rem 13rem 1rem 1.25rem;
+  color: hsl(30, 10%, 34%);
+}
+.nutrition table {
+  border-collapse: collapse; /* Ensures borders are not separated */
+}
+.nutrition table tr:nth-child(-n + 3) {
+  border-bottom: 0.5px solid hsl(30, 18%, 87%); /* Add a bottom border to first 3 rows */
+}
